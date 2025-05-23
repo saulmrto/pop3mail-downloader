@@ -1,0 +1,164 @@
+# My chooses
+metadata.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib60/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a CI server
+#  and build artifacts are recorded in .gitlab-ci.yml
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# PEP 582; __pypackages__
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rove Concepts
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VSCode
+.vscode/
+
+# User-specific data and configuration files (IMPORTANT for your project)
+# This ensures that user-specific data like emails, accounts, and settings
+# are not accidentally committed to the repository.
+# Adjust the path if your user data directory is named differently or located elsewhere
+# relative to your .git folder.
+# If Pop3MailDownloader_UserData is *inside* your git repo, uncomment the next line:
+# Pop3MailDownloader_UserData/
+
+# If your app_config.json (which points to the user data) is in the root of your repo:
+app_config.json
+
+# Specific files from your project that should likely be ignored if they are
+# generated or contain sensitive user data.
+# If these are *always* in a specific user data directory that's already ignored,
+# then these specific lines might be redundant.
+# However, if they could appear in the root or other tracked directories, keep them.
+# /emails_metadata.json # Example if it could be outside the user data dir
+# /accounts.txt         # Example
+# /settings.json        # Example
+# /spam_settings.json   # Example
+# /trigger_check.txt    # Example
+# /Logs/                  # Example for logs directory
+
+# IDE / Editor specific files
+.idea/
+*.swp
+*.swo
+*~
